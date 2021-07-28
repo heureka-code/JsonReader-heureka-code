@@ -115,6 +115,9 @@ class JsonReader:
             del pfad[0]
         pass
 
+    def path_exists(self, path: str):
+        return self.get_from_path(path) != self.__content
+
     def delete_path(self, path: str):
         try:
             pfad = path.split("/")

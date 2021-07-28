@@ -32,5 +32,10 @@
     // Nimmt das Argument:
     //  * path, der Pfad, der gelöscht werden soll
     def delete_path(self, path: str)
+
+    // path_exists
+    // Nimmt das Argument
+    // * path, der Pfad der geprueft werden soll
+    def path_exists(self, path: str)
     
     // Sonst nur private Methoden

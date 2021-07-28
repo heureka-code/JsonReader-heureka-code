@@ -4,4 +4,4 @@ from .__jsonReader import __doc__ as JsonReader__doc__
 __doc__ = JsonReader__doc__
 __author__ = "heureka-code"
 __maintainer__ = "heureka-code"
-__version__ = "0.0.3"
+__version__ = "0.0.4"
